@@ -1,10 +1,10 @@
-package com.example.springaufgabe;
+package de.thbrandenburg.collin.webapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringAufgabeApplicationTests {
+class WebAppApplicationTests {
 
 	@Test
 	void contextLoads() {

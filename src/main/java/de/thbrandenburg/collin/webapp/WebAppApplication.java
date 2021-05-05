@@ -1,13 +1,13 @@
-package com.example.springaufgabe;
+package de.thbrandenburg.collin.webapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringAufgabeApplication {
+public class WebAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringAufgabeApplication.class, args);
+		SpringApplication.run(WebAppApplication.class, args);
 	}
 
 }

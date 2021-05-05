@@ -1,7 +1,6 @@
-package com.example.springaufgabe;
+package de.thbrandenburg.collin.webapp;
 
-import com.example.springaufgabe.Student.Student;
-import com.example.springaufgabe.Student.StudentSampleData;
+import de.thbrandenburg.collin.webapp.student.StudentSampleData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
@@ -15,5 +14,6 @@ public class RunSampleDataCreation implements ApplicationListener<ContextRefresh
     @Override
     public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
         studentSampleData.createStudents();
+
     }
 }
