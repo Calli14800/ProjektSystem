@@ -8,10 +8,10 @@ public class StudentSampleData {
     @Autowired
     private StudentRepository studentRepository;
     public void createStudents() {
-    Student s = new Student();
-    s.setName("Pascal");
-    s.setMatrNr( 12345678L );
+        Student s = new Student();
+        s.setName("Pascal");
+        s.setMatrNr( 12345678L );
 
-    studentRepository.save( s );
+        studentRepository.save( s );
     }
 }
