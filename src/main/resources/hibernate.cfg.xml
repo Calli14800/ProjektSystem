@@ -8,7 +8,7 @@
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password"/>
         <property name="show_sql">true</property>
-        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.hbm2ddl.auto">create</property>
         <mapping class="de.thbrandenburg.collin.webapp.Student"/>
         <mapping class="de.thbrandenburg.collin.webapp.Person"/>
     </session-factory>

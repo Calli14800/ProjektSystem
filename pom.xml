@@ -11,7 +11,7 @@
     <groupId>com.projektsystem</groupId>
     <artifactId>projektsystem2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <firstName>projektsystem2</firstName>
+    <name>projektsystem2</name>
     <description>Demo project for me</description>
     <properties>
         <java.version>11</java.version>

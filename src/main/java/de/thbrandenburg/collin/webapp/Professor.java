@@ -7,15 +7,15 @@ public class Professor extends Person {
         super(name);
     }
 
-    public void PisEligibleToEnroll() {
+    public void isEligibleToEnroll() {
 
     }
 
-    public void PgetSeminarHistory() {
+    public void getSeminarHistory() {
 
     }
 
-    public void PtakeExamination() {
+    public void takeExamination() {
 
     }
 }
