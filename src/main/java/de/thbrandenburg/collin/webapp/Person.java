@@ -13,6 +13,7 @@ public abstract class Person {
     private String emailAddress;
     private Long id;
 
+
     public Person() {
 
     }
@@ -21,7 +22,7 @@ public abstract class Person {
 
     public Person (String name) {this.firstName = name; }
 
-
+    @Column(name = "Vorname")
     public String getFirstName() { return firstName; }
 
     public void setFirstName(String firstName) { this.firstName = firstName; }
@@ -48,7 +49,7 @@ public abstract class Person {
 
     }
 
-
+    @Column(name = "Nachname")
     public String getLastName() {
         return lastName;
     }

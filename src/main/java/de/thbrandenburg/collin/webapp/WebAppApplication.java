@@ -48,6 +48,7 @@ public class WebAppApplication {
 	session.beginTransaction();
 	session.persist(student);
 	session.flush();
+	session.close();
 
 
 
@@ -70,6 +71,7 @@ public class WebAppApplication {
 		session.beginTransaction();
 		Student student = session.load(Student.class, 1L);
 		session.flush();
+
 
 		String jsonString = null;
 
